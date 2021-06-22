@@ -11,10 +11,16 @@ if (nome.includes('x')){
 }else{
     console.log('Falso');
 }
-// 3 - Faz uma consulta e se encontrar o valor passado no parâmetro ele o substituirá
+// 3 - Faz uma consulta e se encontrar o valor passado no parâmetro ele o substituirá através do comando .replace()
 if (nome == 'Asdrubal'){
     nome = nome.replace('Asdrubal', 'Emengarda')
     console.log(nome);
 }else{
     console.log('Falso');
 }
+// 4 - Retorna uma cópia de elementos do array original de acordo com os parâmetros através do comando .slice()
+var fruits = ['Apple','Orange','BlueBarry']
+var copy = fruits.slice(0,3);
+for (let num of copy){
+    console.log(num)
+};
