@@ -6,7 +6,7 @@ function Dollars(Real){ // Função para converter Real em dólares
     return Result;
 };
 console.log('100 Reais = '+Dollars(100)+' Dollars');
-// 2 - Função para retornar o maior numero de um array
+// 2 - Função para retornar o maior número de um array
 console.log("\n");
 console.log("---------Exemplo 2---------");
 var list = [58,25,99,57,64];
