@@ -42,7 +42,7 @@ let numeros = [9,8,7,6,5,4,3,2,1];
 let index = numeros.length - 1; // Para achar o número de indices de um array basta fazer .length - 1
 console.log(`O tamanho do array é igual a: ${+numeros.length}`);
 console.log(`O número de indices é igual a: ${index}`);
-/* 5 - Acessando o primeiro e o ultimo elemento do array
+/* 6 - Acessando o primeiro e o ultimo elemento do array
 */
 console.log("\n");
 console.log("---------Exemplo 6---------");
@@ -51,3 +51,22 @@ console.log(`O segundo ultimo elemento do array numero é: ${numeros.length-1}`)
 let i = 0; let x = 4;
 console.log(`Acessando o array a direita do 9: ${numeros[i+1]}`);
 console.log(`Acessando o array a esquerda do 5: ${numeros[x-1]}`);
+/* 7 - Acessando uma string
+Tudo que foi aprendido nas ultimas lições em array pode ser feito em uma String também
+*/
+console.log("\n");
+console.log("---------Exemplo 7---------");
+let nome = 'victor'.length;
+let upper = 'victor';
+let lastUpper = upper[5].toUpperCase();
+console.log(`Tamanho da String nome é igual a: ${+nome}`);
+console.log(`Tamanho do indice da String nome é igual a: ${nome-1}`);
+console.log(`O último indice da String 'Victor' é: ${'victor'[5]}`);
+console.log(`A última letra da String 'Victor' ficara maiúscula: ${lastUpper}`);
+/* 8 - Para percorrer uma string é através da mesma forma de percorrer um array
+*/
+console.log("\n");
+console.log("---------Exemplo 8---------");
+for (let index = 0; index < 'victor'.length; index++){ // Imprimi todos os caracteres da string
+    console.log(`${'victor'[index]}`);
+}
