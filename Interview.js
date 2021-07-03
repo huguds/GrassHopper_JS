@@ -63,10 +63,33 @@ console.log(`Tamanho da String nome é igual a: ${+nome}`);
 console.log(`Tamanho do indice da String nome é igual a: ${nome-1}`);
 console.log(`O último indice da String 'Victor' é: ${'victor'[5]}`);
 console.log(`A última letra da String 'Victor' ficara maiúscula: ${lastUpper}`);
-/* 8 - Para percorrer uma string é através da mesma forma de percorrer um array
+/* 8 - Para percorrer uma string utiliza-se a mesma forma de percorrer um array
 */
 console.log("\n");
 console.log("---------Exemplo 8---------");
 for (let index = 0; index < 'victor'.length; index++){ // Imprimi todos os caracteres da string
     console.log(`${'victor'[index]}`);
 }
+/* 9 - Maneiras de acessar um objeto e adicionar propriedas ao mesmo
+*/
+console.log("\n");
+console.log("---------Exemplo 9---------");
+let namePet = {
+    name: 'Galatico',
+    age: 3
+};
+console.log("O nome do seu animal de estimação é: "+namePet.name); // Primeira maneira de acessar um objeto
+console.log("A idade do seu animal de estimação é: "+namePet['age']); // Segunda maneira de acessar um objeto
+let Galatico ={};
+Galatico['aniversario'] = '15/01/2019';
+/* 10 - Verifica qual é a String mais longa
+*/
+console.log("\n");
+console.log("---------Exemplo 10---------");
+let nome1 = 'Emengarda';
+let nome2 = 'José';
+if (nome1.length > nome2.length){
+    return console.log(`${nome1}`);
+}else{
+    return console.log(`${nome2}`);
+};
