@@ -1,4 +1,4 @@
-// Programador: Victor Hugo | Dicas e boas práticas ao programar em  JS | data: 28/06/2021
+// Programador: Victor Hugo | Dicas e boas práticas ao programar em  JS I | data: 28/06/2021
 /* 1 - Ao resolver problemas é importante saber qual é a entrada e qual será a saida (resposta)
 Neste Exercício será impresso um exemplo calculando a média de um aluno.
 */
